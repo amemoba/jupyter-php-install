@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Litipk\JupyterPhpInstaller\System;
+namespace Mobaichi\JupyterPHPInstaller\System;
 
 
 abstract class UnixSystem extends System

@@ -12,7 +12,7 @@
  */
 
 
-namespace Litipk\JupyterPhpInstaller\IO;
+namespace Mobaichi\JupyterPHPInstaller\IO;
 
 
 /**

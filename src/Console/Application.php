@@ -1,16 +1,16 @@
 <?php
 
 
-namespace Litipk\JupyterPhpInstaller\Console;
+namespace Mobaichi\JupyterPHPInstaller\Console;
 
 
-use Litipk\JupyterPhpInstaller\Command\InfoCommand;
-use Litipk\JupyterPhpInstaller\Command\InstallCommand;
-use Litipk\JupyterPhpInstaller\Command\UninstallCommand;
-use Litipk\JupyterPhpInstaller\Command\UpdateCommand;
-use Litipk\JupyterPhpInstaller\IO\ConsoleIO;
-use Litipk\JupyterPhpInstaller\IO\IOInterface;
-use Litipk\JupyterPhpInstaller\Util\ErrorHandler;
+use Mobaichi\JupyterPHPInstaller\Command\InfoCommand;
+use Mobaichi\JupyterPHPInstaller\Command\InstallCommand;
+use Mobaichi\JupyterPHPInstaller\Command\UninstallCommand;
+use Mobaichi\JupyterPHPInstaller\Command\UpdateCommand;
+use Mobaichi\JupyterPHPInstaller\IO\ConsoleIO;
+use Mobaichi\JupyterPHPInstaller\IO\IOInterface;
+use Mobaichi\JupyterPHPInstaller\Util\ErrorHandler;
 
 use Symfony\Component\Console\Application as BaseApplication;
 use Symfony\Component\Console\Formatter\OutputFormatter;

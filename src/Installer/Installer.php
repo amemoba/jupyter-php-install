@@ -1,14 +1,14 @@
 <?php
 
 
-namespace Litipk\JupyterPhpInstaller\Installer;
+namespace Mobaichi\JupyterPHPInstaller\Installer;
 
 
-use Litipk\JupyterPhpInstaller\System\LinuxSystem;
-use Litipk\JupyterPhpInstaller\System\MacSystem;
-use Litipk\JupyterPhpInstaller\System\System;
-use Litipk\JupyterPhpInstaller\System\UnixSystem;
-use Litipk\JupyterPhpInstaller\System\WindowsSystem;
+use Mobaichi\JupyterPHPInstaller\System\LinuxSystem;
+use Mobaichi\JupyterPHPInstaller\System\MacSystem;
+use Mobaichi\JupyterPHPInstaller\System\System;
+use Mobaichi\JupyterPHPInstaller\System\UnixSystem;
+use Mobaichi\JupyterPHPInstaller\System\WindowsSystem;
 
 abstract class Installer
 {
@@ -143,10 +143,10 @@ abstract class Installer
         $cmd = (
             $this->composerCmd . ' init ' .
             ' --no-interaction ' .
-            ' --name=jupyter-php-instance ' .
+            ' --name=mobaichi/jupyter-php-installer ' .
             ' --type=project ' .
             ' --working-dir="' . $pkgsDir . '" ' .
-            ' --require=litipk/jupyter-php=0.* '
+            ' --require=mobaichi/jupyter-php=0.* '
         );
 
         return ($silent)

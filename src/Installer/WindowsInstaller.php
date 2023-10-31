@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Litipk\JupyterPhpInstaller\Installer;
+namespace Mobaichi\JupyterPHPInstaller\Installer;
 
 
-use Litipk\JupyterPhpInstaller\System\WindowsSystem;
+use Mobaichi\JupyterPHPInstaller\System\WindowsSystem;
 
 
 final class WindowsInstaller extends Installer
@@ -32,7 +32,7 @@ final class WindowsInstaller extends Installer
 
     protected function getKernelEntryPointPath(): string
     {
-        return $this->getInstallPath() . '\pkgs\vendor\litipk\jupyter-php\src\kernel.php';
+        return $this->getInstallPath() . '\pkgs\vendor\mobaichi\jupyter-php\src\kernel.php';
     }
 
     protected function getJupyterKernelsMetadataAdminPath(): string

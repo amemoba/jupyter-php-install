@@ -1,6 +1,6 @@
 {
-    "name": "litipk/jupyter-php-installer",
-    "description": "An installer for Jupyter-PHP",
+    "name": "mobaichi/jupyter-php-installer",
+    "description": "An Installer for Jupyter PHP Kernel",
     "type": "project",
     "license": "MIT",
     "require": {
@@ -9,12 +9,13 @@
         "seld/cli-prompt": "^1.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^6.1"
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
-        "psr-4": { "Litipk\\JupyterPhpInstaller\\": "src/"}
+        "psr-4": {
+            "Mobaichi\\JupyterPHPInstaller\\": "src/"
+        }
     },
     "scripts": {
-
     }
 }

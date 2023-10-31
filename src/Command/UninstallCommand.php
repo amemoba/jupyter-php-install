@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Litipk\JupyterPhpInstaller\Command;
+namespace Mobaichi\JupyterPHPInstaller\Command;
 
 
 use Symfony\Component\Console\Input\InputArgument;

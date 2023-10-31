@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Litipk\JupyterPhpInstaller\Command;
+namespace Mobaichi\JupyterPHPInstaller\Command;
 
 
-use Litipk\JupyterPhpInstaller\Console\Application;
-use Litipk\JupyterPhpInstaller\IO\IOInterface;
+use Mobaichi\JupyterPHPInstaller\Console\Application;
+use Mobaichi\JupyterPHPInstaller\IO\IOInterface;
 
-use Litipk\JupyterPhpInstaller\IO\NullIO;
+use Mobaichi\JupyterPHPInstaller\IO\NullIO;
 use Symfony\Component\Console\Command\Command as BaseCommand;
 
 

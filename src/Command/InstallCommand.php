@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Litipk\JupyterPhpInstaller\Command;
+namespace Mobaichi\JupyterPHPInstaller\Command;
 
 
-use Litipk\JupyterPhpInstaller\Installer\Installer;
+use Mobaichi\JupyterPHPInstaller\Installer\Installer;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;

@@ -9,7 +9,7 @@ if ('cli' !== PHP_SAPI) {
 require_once __DIR__ . '/bootstrap.php';
 
 
-use Litipk\JupyterPhpInstaller\Console\Application;
+use Mobaichi\JupyterPHPInstaller\Console\Application;
 
 
 $application = new Application();

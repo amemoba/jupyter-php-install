@@ -11,7 +11,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Litipk\JupyterPhpInstaller\IO;
+namespace Mobaichi\JupyterPHPInstaller\IO;
 
 /**
  * IOInterface that is not interactive and never writes the output

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Litipk\JupyterPhpInstaller\Installer;
+namespace Mobaichi\JupyterPHPInstaller\Installer;
 
 
-use Litipk\JupyterPhpInstaller\System\MacSystem;
+use Mobaichi\JupyterPHPInstaller\System\MacSystem;
 
 
 final class MacInstaller extends UnixInstaller

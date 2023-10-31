@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Litipk\JupyterPhpInstaller\System;
+namespace Mobaichi\JupyterPHPInstaller\System;
 
 
 final class BsdSystem extends UnixSystem
